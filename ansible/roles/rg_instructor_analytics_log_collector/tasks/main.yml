@@ -111,4 +111,4 @@
     - "install:configuration"
     - "rg_instructor_analytics"
     - "manage"
-    - "manage:stop"
+    - "manage:start"
