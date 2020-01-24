@@ -8,5 +8,5 @@ rg_analytics_log_collector_workers:
     command: "run_log_watcher.py"
     path: "{{ venv_path }}"
   - program_name: "processor"
-    command: "run_processors.py -a enrollment"
+    command: "run_processors.py -a enrollment --delete-logs"
     path: "{{ venv_path }}"
